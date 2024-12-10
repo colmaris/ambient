@@ -1,8 +1,7 @@
 <?php
 /*
-Lit la liste de tous les fichiers mp3 des sous-répertoires et écrit un fichier playlist.m3u
-
-Utilise la lib getid3() (http://getid3.sourceforge.net/)
+Reads a list of all the mp3 files in the subdirectories and writes a playlist.m3u file.
+Use lib getid3() (http://getid3.sourceforge.net/)
 Doc: http://getid3.sourceforge.net/source/?t=structure.txt
 
 */
