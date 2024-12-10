@@ -95,7 +95,7 @@ function buildM3u($dir,$baseurl)
     return implode("\n",$lines);
 }
 
-$data = buildM3u('.','https://sebsauvage.net/ambient');
+$data = buildM3u('.','https://ambient.colmaris.fr/');
 file_put_contents('playlist.m3u',$data);
 echo 'Playlist regénérée. Durée totale (en secondes): ',$GLOBALS['TOTALTIME'];
 ?>
