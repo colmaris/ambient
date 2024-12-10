@@ -1,8 +1,8 @@
 <?php
 
-/* Génère un fichier xspf minimal à partir d'un fichier .m3u
-   Ce code est dans le domaine public.
-   Auteur: sebsauvage at sebsauvage dot net
+/* Generates a minimal xspf file from a .m3u file
+   This code is in the public domain.
+   Author: sebsauvage at sebsauvage dot net
 
    Warning: No error control (I create clean m3u files), no proper utf-8 handling.
 */
