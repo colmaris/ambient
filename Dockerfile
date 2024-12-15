@@ -4,6 +4,7 @@ FROM php:8.3-apache
 # Apache config
 COPY conf/vhost.conf /etc/apache2/sites-available/000-default.conf
 COPY conf/apache.conf /etc/apache2/conf-available/z-ambient.conf
+COPY errors /errors
 RUN a2enconf z-ambient
 
 # Php config
