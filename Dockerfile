@@ -12,11 +12,12 @@ RUN apt-get update -qq && \
     git \
     gnupg \
     unzip \
+    zlib1g \
     zip && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /var/log/*
 
 # PHP Extensions
-RUN docker-php-ext-install -j$(nproc) opcache gd bcmath
+RUN docker-php-ext-install -j$(nproc) bcmath
 COPY --link conf/php.ini /usr/local/etc/php/conf.d/app.ini
 
 # Apache
