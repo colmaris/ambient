@@ -9,3 +9,4 @@ playlist.m3u
 musics
 src/musics
 src/getid3
+.DS_Store
