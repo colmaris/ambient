@@ -31,7 +31,7 @@ Once the containers are running, open your browser and go to `http://localhost`.
 
 ### Generate playlist.
 
-Enter in the php container `docker compose exec php bas` and navigate to the public directory. Then execute the `playlit_gen.php` script : `php playlist_gen.php`. All done and enjoy your music !
+Enter in the php container `docker compose exec php bash` and navigate to the public directory. Then execute the `playlit_gen.php` script : `php playlist_gen.php`. All done and enjoy your music !
 
 ## Stopping the Containers
 
